@@ -3,13 +3,10 @@
 In The Name Of ALLAH
 </h1>
 <h2>
-Advanced Programming - Homework 2
-</h2>
-<h2>
-Dr.Amir Jahanshahi
+Faculty Manager 
 </h2>
 <h3>
-Deadline: Friday, 25 Mehr - 23:00
+Problem Description
 </center>
 
 <img src="stuff/f1.jpg" width="300" />
@@ -19,9 +16,11 @@ Deadline: Friday, 25 Mehr - 23:00
 **Note**: For the sake of functionality, you might need to change some prototypes. But remember, **don't remove any type or keyword at all!**. You're just allowed to add more, not remove!
 
 # Introduction
+
 In this homework, you'll help **Mr.Jeddi** to monitor and control classes of the fourth floor of the faculty. As you know, Mr.Jeddi should be aware of each class at anytime. So let's have a simple program for him to see the number of seats, temperature and name for each class. He could even handle seat changes between classes with your program and some more features. let's begin.
 
 # Classroom
+
 First of all, you must implement the **Classroom** class. This class should have the following private variables.
 
 ```c++
@@ -32,7 +31,7 @@ std::shared_ptr<Classroom> right;  // A smart pointer to the class to the right 
 double temperature{27};
 ```
 
-Your class must also have a ```size_t``` variable named **no**. **no** has the number of all classroom objects created so far.
+Your class must also have a `size_t` variable named **no**. **no** has the number of all classroom objects created so far.
 
 The following, is a list of your class member functions.
 
@@ -53,10 +52,9 @@ The **show()** must display a class just like below.
 
 <img src="stuff/f4.png"  />
 
-
 <img src="stuff/f3.jpg"  />
 
-#  Floor
+# Floor
 
 To introduce the concept of each floor to C++, we have a **Floor** class. This class gets the pointer to just one of the classes and does some operations on the whole floor. Let's see the member variables.
 
@@ -118,8 +116,3 @@ show(f4);
 f4.setPointer(b);
 f4[0]->show();
 ```
-
-# main File
-You must not alter the **main.cpp** file at all. Just write all your codes in the **aphw1.cpp** and **aphw1.h**. Good luck!
-
-<img src="stuff/f2.jpg" width="400" />
